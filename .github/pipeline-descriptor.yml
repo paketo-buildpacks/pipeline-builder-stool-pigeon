@@ -8,7 +8,7 @@ codeowners:
 
 package:
   repositories:   ["docker.io/paketobuildpacks/pipeline-builder-stool-pigeon","gcr.io/paketo-buildpacks/pipeline-builder-stool-pigeon"]
-  register:       true
+  register:       false
   registry_token: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
 
 docker_credentials:

@@ -244,7 +244,7 @@ jobs:
               env:
                 DIGEST: ${{ steps.package.outputs.digest }}
                 GITHUB_TOKEN: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
-            - if: ${{ true }}
+            - if: ${{ false && false }}
               uses: docker://ghcr.io/buildpacks/actions/registry/request-add-entry:4.0.1
               with:
                 address: docker.io/paketobuildpacks/pipeline-builder-stool-pigeon@${{ steps.package.outputs.digest }}

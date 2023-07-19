@@ -2,14 +2,10 @@ module github.com/paketo-buildpacks/pipeline-builder-stool-pigeon
 
 go 1.20
 
-replace github.com/buildpacks/libcnb => github.com/buildpacks/libcnb v1.24.1-0.20230627130937-5d3d3f6e6d16
-
-replace github.com/paketo-buildpacks/libpak => github.com/paketo-buildpacks/libpak v1.66.1-0.20230707152440-cd6875914a49
-
 require (
 	github.com/buildpacks/libcnb v1.24.1-0.20230627130937-5d3d3f6e6d16
 	github.com/onsi/gomega v1.27.8
-	github.com/paketo-buildpacks/libpak v1.66.1-0.20230627140602-0d0509ad1545
+	github.com/paketo-buildpacks/libpak v1.66.1-0.20230707152440-cd6875914a49
 	github.com/sclevine/spec v1.4.0
 )
 
